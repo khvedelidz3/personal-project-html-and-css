@@ -10,6 +10,10 @@
 }
 
 /*component-1 start*/
+header{
+    margin-bottom: 28px;
+}
+
 header .header{
     background: #1A1C27;
     height: 55px;
@@ -65,10 +69,10 @@ header .header .container div i{
 /*component-1 end*/
 
 /*component-2 start*/
-
 nav{
     font-family: 'Lato';
     background: #FFFFFF;
+    height: 100px;
 }
 
 nav a {
@@ -80,6 +84,14 @@ nav a {
 
 nav .logo{
     display: inline-block;
+    padding-top: 28px;
+    margin-right: 83px;
+    float: left;
+}
+
+nav .logo img{
+    float: left;
+    padding-right: 14px;
 }
 
 nav .logo .logo-text{
@@ -87,6 +99,7 @@ nav .logo .logo-text{
     color: #2C3E50;
     font-size: 36px;
     line-height: 14px;
+    padding-top: 16px;
 }
 
 nav .logo .logo-text span{
@@ -94,9 +107,54 @@ nav .logo .logo-text span{
 }
 
 nav .nav-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .nav-items div{
     display: inline-block;
+    margin-right: 44px;
 }
 
 nav .nav-items .nav-item{
-    display: inline-block;
+    height: 100px;
 }
+
+nav .nav-items .nav-item:hover span{
+    top: 37px;
+}
+
+nav .nav-items .nav-item:hover{
+    border-top: 5px solid #1ABC9C;
+    color: #1ABC9C;
+}
+
+nav .nav-items .nav-item span{
+    position: relative;
+    top: 42px;
+}
+
+nav .nav-items .search{
+    margin-right: 0;
+    display: flex;
+    width: 76px;
+    justify-content: space-between;
+}
+
+nav .nav-items .search .nav-item{
+    position: relative;
+    left: -14px;
+    margin-right: 0;
+}
+
+nav .nav-items .search i{
+    font-size: 28px;
+    position: relative;
+    top: -6px;
+    left: 10px;
+}
+
+nav .nav-items .search i:first-child{
+    padding-right: 20px;
+}
+/*component-2 end*/
