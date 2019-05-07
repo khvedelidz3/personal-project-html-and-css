@@ -99,7 +99,7 @@ nav .logo .logo-text{
     color: #2C3E50;
     font-size: 36px;
     line-height: 14px;
-    padding-top: 16px;
+    padding-top: 14px;
 }
 
 nav .logo .logo-text span{
@@ -158,3 +158,80 @@ nav .nav-items .search i:first-child{
     padding-right: 20px;
 }
 /*component-2 end*/
+
+/*component-3 start*/
+.burger-menu{
+    background: #222533;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato';
+}
+
+.burger-menu .burger{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-left: 86px;
+}
+
+.burger-menu .burger span{
+    font-size: 30px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.burger-menu .burger a{
+    text-decoration: none;
+    color: #A1B1BC;
+}
+
+.burger-menu .burger .burger-icon{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: #FFFFFF;
+    border: 1px solid #A1B1BC;
+    border-radius: 6px;
+    padding-bottom: 1px;
+}
+
+.burger-menu .burger .burger-icon i{
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.burger-menu .right-nav{
+    color: #ECF0F1;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 215px;
+    margin-right: 88px;
+    padding-bottom: 3px;
+}
+
+.burger-menu .right-nav .current{
+    font-weight: 700;
+}
+
+.burger-menu .right-nav a{
+    text-decoration: none;
+    color: #ECF0F1;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.burger-menu .right-nav i{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+/*component-3 end*/
+
