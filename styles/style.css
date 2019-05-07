@@ -9,6 +9,7 @@
     margin: auto;
 }
 
+/*component-1 start*/
 header .header{
     background: #1A1C27;
     height: 55px;
@@ -60,4 +61,42 @@ header .header .container div i{
     font-size: 18px;
     line-height: 19px;
     padding-right: 14px;
+}
+/*component-1 end*/
+
+/*component-2 start*/
+
+nav{
+    font-family: 'Lato';
+    background: #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+    color: #A1B1BC;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+nav .logo{
+    display: inline-block;
+}
+
+nav .logo .logo-text{
+    display: inline-block;
+    color: #2C3E50;
+    font-size: 36px;
+    line-height: 14px;
+}
+
+nav .logo .logo-text span{
+    font-weight: 900;
+}
+
+nav .nav-items{
+    display: inline-block;
+}
+
+nav .nav-items .nav-item{
+    display: inline-block;
 }
