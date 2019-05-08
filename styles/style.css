@@ -746,6 +746,7 @@ aside .tweet .tweet-text p a{
 /*component-8 start*/
 aside .flickr{
     font-family: 'Lato';
+    padding-bottom: 41px;
 }
 
 aside .flickr .flickr-header{
@@ -808,3 +809,71 @@ aside .flickr .cells .flex{
     padding-bottom: 7px;
 }
 /*component-8 end*/
+
+/*component-9 start*/
+aside .tags{
+    font-family: 'Lato';
+}
+
+aside .tags .tags-header{
+    display: flex;
+    padding-bottom: 32px;
+}
+
+aside .tags .tags-header .widget-icon{
+    width: 14px;
+    height: 14px;
+    background: #1ABC9C;
+    margin-right: 10px;
+}
+
+aside .tags .tags-header .widget-icon .bottom{
+    height: 7px;
+    width: 100%;
+    background: #46D1FF;
+    margin-top: 7px;
+}
+
+aside .tags .tags-header h3{
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+
+aside .tags .tags-container .flex{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 5px;
+}
+
+aside .tags .tags-container .flex div{
+    margin-right: 5px;
+    padding: 0 10px;
+}
+
+aside .tags .tags-container .flex div:last-child{
+    margin-right: 0;
+}
+
+aside .tags .tag{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 19px;
+    color: #34495E;
+    height: 30px;
+    background: #ECF0F1;
+    border-radius: 3px;
+    padding: 0 9px;
+}
+
+aside .tags .tag:hover{
+    background: #1ABC9C;
+    color: #FFFFFF;
+}
+
+aside .tags .tag span{
+    vertical-align: -webkit-baseline-middle;
+}
+/*component-9 end*/
+
