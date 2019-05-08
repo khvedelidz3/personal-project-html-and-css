@@ -641,4 +641,101 @@ footer .footer .container div:last-child ul ul li{
     vertical-align: middle;
 }
 /*component-6 end*/
+/*component-7 start*/
+
+aside{
+    font-family: 'Lato';
+}
+
+aside .sidebar-header{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+aside .sidebar-header h3{
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+
+aside .sidebar-header .widget-icon{
+    width: 14px;
+    height: 14px;
+    background: #1ABC9C;
+    margin-right: 10px;
+}
+
+aside .sidebar-header .widget-icon .bottom{
+    height: 7px;
+    width: 100%;
+    background: #46D1FF;
+    margin-top: 7px;
+}
+
+aside .tweet .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside .tweet::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #DEE5E9;
+    margin-bottom: 14px;
+}
+
+aside .tweet:last-child::after{
+    display: none;
+}
+
+aside .tweet .tweet-content{
+    width: 216px;
+    padding-bottom: 17px;
+}
+
+aside .tweet .tweet-content .tweet-header{
+    padding-bottom: 5px;
+}
+
+aside .tweet .avatar{
+    height: 40px;
+    width: 40px;
+    background: #CCCCCC;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+aside .tweet .tweet-header p a{
+    text-decoration: none;
+    color: #2C3E50;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    padding-right: 7px;
+}
+
+aside .tweet .tweet-header p a:hover{
+    color: #1ABC9C;
+}
+
+aside .tweet .tweet-header p span{
+    font-size: 14px;
+    line-height: 19px;
+    color: #A1B1BC;
+}
+aside .tweet .tweet-text p {
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 24px;
+    word-spacing: 0.1px;
+}
+
+aside .tweet .tweet-text p a{
+    text-decoration: none;
+    color: #1ABC9C;
+}
+/*cmoponent-7 end*/
 
