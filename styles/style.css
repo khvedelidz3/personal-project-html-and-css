@@ -161,10 +161,10 @@ nav .nav-items .search i:first-child{
 
 /*component-3 start*/
 .burger-menu{
-    background: #222533; 
+    background: #222533;
 }
+
 .burger-menu .container{
-    width: 1350px;
     height: 120px;
     display: flex;
     justify-content: space-between;
@@ -176,7 +176,6 @@ nav .nav-items .search i:first-child{
     display: flex;
     align-items: center;
     padding-bottom: 5px;
-    margin-left: 86px;
 }
 
 .burger-menu .burger span{
@@ -216,7 +215,6 @@ nav .nav-items .search i:first-child{
     align-items: center;
     justify-content: space-between;
     width: 215px;
-    margin-right: 88px;
     padding-bottom: 3px;
 }
 
@@ -331,6 +329,7 @@ main .container button{
     border-radius: 3px;
     background: #FFFFFF;
     font-weight: 900;
+    letter-spacing: 0.3px;
 }
 
 main .container button:hover{
@@ -619,10 +618,6 @@ footer .footer .container div:last-child ul ul li{
     letter-spacing: -1px;
 }
 
-.copyright .container{
-
-}
-
 .copyright .container p{
     display: inline-block;
 }
@@ -632,18 +627,19 @@ footer .footer .container div:last-child ul ul li{
     color: #1ABC9C;
 }
 
-.copyright .container span::before{
-    content: '';
-    display: inline-block;
-    height: 14px;
-    width: 1px;
-    background: #2C3E50;
-    margin-left: 7px;
-    margin-right: 5px;
-    vertical-align: middle;
+.copyright .container .break{
+    color: #2C3E50;
 }
 /*component-6 end*/
 /*component-7 start*/
+
+.copyright .container .first-span{
+    letter-spacing: -0.6pt;
+}
+
+.copyright .container .last-span{
+    letter-spacing: -0.9pt;
+}
 
 aside{
     font-family: 'Lato';
@@ -731,6 +727,7 @@ aside .tweet .tweet-header p span{
     font-size: 14px;
     line-height: 19px;
     color: #A1B1BC;
+    letter-spacing: 0.5px;
 }
 aside .tweet .tweet-text p {
     color: #A1B1BC;
