@@ -647,6 +647,10 @@ aside{
     font-family: 'Lato';
 }
 
+aside .sidebar-tweets{
+    margin-bottom: 57px;
+}
+
 aside .sidebar-header{
     display: flex;
     padding-bottom: 20px;
@@ -737,5 +741,70 @@ aside .tweet .tweet-text p a{
     text-decoration: none;
     color: #1ABC9C;
 }
-/*cmoponent-7 end*/
+/*component-7 end*/
 
+/*component-8 start*/
+aside .flickr{
+    font-family: 'Lato';
+}
+
+aside .flickr .flickr-header{
+    display: flex;
+    padding-bottom: 29px;
+}
+
+aside .flickr .flickr-header .widget-icon{
+    width: 14px;
+    height: 14px;
+    background: #1ABC9C;
+    margin-right: 10px;
+}
+
+aside .flickr .flickr-header .widget-icon .bottom{
+    height: 7px;
+    width: 100%;
+    background: #46D1FF;
+    margin-top: 7px;
+}
+
+aside .flickr .flickr-header h3{
+    font-size: 18px;
+    line-height: 19px;
+    color: #2C3E50;
+    font-weight: 700;
+}
+
+aside .flickr .cells{
+    display: flex;
+    flex-direction: column;
+}
+
+aside .flickr .cells .cell{
+    background: #CCCCCC;
+    width: 85px;
+    height: 85px;
+    position: relative;
+    color: #CCCCCC;
+    font-size: 40px;
+    line-height: 19px;
+    font-weight: 300;
+}
+
+aside .flickr .cells .cell:hover{
+    background: #1ABC9C;
+    color: #FFFFFF;
+}
+
+aside .flickr .cells .cell span{
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+aside .flickr .cells .flex{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7px;
+}
+/*component-8 end*/
