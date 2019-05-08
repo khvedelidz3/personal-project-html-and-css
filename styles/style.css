@@ -161,7 +161,10 @@ nav .nav-items .search i:first-child{
 
 /*component-3 start*/
 .burger-menu{
-    background: #222533;
+    background: #222533; 
+}
+.burger-menu .container{
+    width: 1350px;
     height: 120px;
     display: flex;
     justify-content: space-between;
