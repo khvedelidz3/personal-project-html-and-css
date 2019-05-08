@@ -36,7 +36,7 @@ header .header .container div{
     line-height: 19px;
     border-right: 1px solid #314354;
     height: 100%;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 header .header .container div.middle{
@@ -182,7 +182,7 @@ nav .nav-items .search i:first-child{
     font-size: 30px;
     line-height: 19px;
     color: #FFFFFF;
-    margin-right: 20px;
+    margin-right: 18px;
 }
 
 .burger-menu .burger a{
@@ -197,7 +197,7 @@ nav .nav-items .search i:first-child{
     background: #FFFFFF;
     border: 1px solid #A1B1BC;
     border-radius: 6px;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
 }
 
 .burger-menu .burger .burger-icon i{
