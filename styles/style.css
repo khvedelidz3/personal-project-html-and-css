@@ -813,6 +813,7 @@ aside .flickr .cells .flex{
 /*component-9 start*/
 aside .tags{
     font-family: 'Lato';
+    padding-bottom: 45px;
 }
 
 aside .tags .tags-header{
@@ -877,3 +878,70 @@ aside .tags .tag span{
 }
 /*component-9 end*/
 
+/*component-10 start*/
+aside .archives{
+    font-family: 'Lato';
+}
+
+aside .archives .archives-header{
+    display: flex;
+    padding-bottom: 7px;
+}
+
+aside .archives .archives-header h3{
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+
+aside .archives ul li{
+    font-size: 14px;
+    line-height: 50px;
+    color: #A1B1BC;
+}
+
+aside .archives .widget-icon{
+    width: 14px;
+    height: 14px;
+    background: #1ABC9C;
+    margin-right: 10px;
+}
+
+aside .archives .widget-icon .bottom{
+    height: 7px;
+    width: 100%;
+    background: #46D1FF;
+    margin-top: 7px;
+}
+
+aside .archives ul{
+    list-style: none;
+}
+
+aside .archives ul a{
+    text-decoration: none;
+    color: #A1B1BC;
+}
+
+aside .archives ul a:hover{
+    color: #1ABC9C;
+}
+
+aside .archives ul li div{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside .archives ul li::after{
+    content: '';
+    display: block;
+    height: 1px;
+    background: #DEE5E9;
+    margin-bottom: -1px;
+}
+
+aside .archives ul li:last-child::after{
+    display: none;
+}
+/*component-10 end*/
