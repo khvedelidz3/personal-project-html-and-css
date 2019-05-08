@@ -432,6 +432,10 @@ main .blog-post-video .text span a{
     color: #2C3E50;
 }
 
+main .blog-youtube-video{
+    margin-bottom: 120px;
+}
+
 main .blog-youtube-video .video-container{
     height: 485px;
 }
@@ -444,4 +448,153 @@ main .blog-youtube-video .text span.note{
     letter-spacing: 0.1px;
 }
 /*component-4 end*/
+/*component-5 start*/
+footer .footer{
+    height: 478px;
+    background: #1A1C27;
+    font-family: 'Lato';
+}
+footer ul{
+    list-style: none;
+}
+
+footer .footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 97px;
+}
+
+footer .footer .container ul{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+}
+
+footer .footer .container i{
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 6px;
+    padding-right: 18px;
+}
+
+footer .footer .container ul li h4.recent-posts{
+    padding-bottom: 6px;
+}
+
+footer .footer .container ul li p.date-time{
+    font-size: 12px;
+    line-height: 24px;
+    color: #6D7D89;
+}
+
+footer .footer .container ul li p.date{
+    font-size: 12px;
+    color: #788894;
+}
+
+footer .footer .container > ul:first-child li p:first-child{
+    margin-bottom: 24px;
+}
+
+footer .footer .container ul:first-child li:first-child{
+    padding-bottom: 37px;
+}
+
+footer .footer .container ul.recent li.flex{
+    justify-content: space-between;
+}
+
+footer .footer .container ul h3{
+    font-size: 47px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+footer .footer .container .flex ul h4{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+footer .footer .container ul.recent li .flex .flex{
+    flex-direction: column;
+}
+
+footer .footer .container ul.recent li h4.recent-tweets{
+    padding-bottom: 6px;
+}
+
+footer .footer .container div.flex ul.recent li.tweets-header{
+    padding-bottom: 39px;
+}
+
+footer .footer .container div.flex ul.recent li.tweet-content{
+    margin-bottom: 2px;
+}
+
+footer .footer .container ul h3 span{
+    font-size: 47px;
+    line-height: 14px;
+    color: #1ABC9C;
+    font-weight: 900;
+}
+footer .footer .container ul{
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+}
+
+footer .footer .container .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer .container .flex ul li:first-child:before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 18px;
+    background: #1ABC9C;
+    margin-right: 16px;
+    margin-bottom: -2px;
+}
+
+footer .footer .container ul.recent li:after{
+    content: '';
+    display: block;
+    background: #262837;
+    height: 1px;
+    margin-bottom: 12px;
+    margin-top: 13px;
+}
+
+footer .footer .container ul.recent li:last-child:after, footer .footer .container ul.recent li:first-child:after {
+    display: none;
+}
+
+footer .footer .container div:last-child ul{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer .container div:last-child ul ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+footer .footer .container div:last-child ul li:first-child{
+    padding-bottom: 46px;
+}
+
+footer .footer .container div:last-child ul ul li{
+    width: 85px;
+    height: 85px;
+    background: #1ABC9C;
+}
+/*component-5 end*/
 
